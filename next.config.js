@@ -1,3 +1,4 @@
+//next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -5,6 +6,8 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "randomuser.me",
+        pathname: "/api/portraits/**"
+
       },
     ],
   },
